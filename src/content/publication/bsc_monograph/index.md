@@ -37,17 +37,21 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
+- name: Code
+  url: https://github.com/lffloyd/reddit-topic-modelling
+- name: Slides
+  url: https://docs.google.com/presentation/d/1IYUbJLL9FWhMZuijVs9E5Kxgozzj9C-M1DNPFjQin1A/edit?usp=sharing
 - name: Dataset (pt-BR)
   url: https://www.kaggle.com/luizfmatos/reddit-portuguese-depression-related-submissions
 - name: Dataset (en)
   url: https://www.kaggle.com/luizfmatos/reddit-english-depression-related-submissions
 
 url_pdf: ''
-url_code: 'https://github.com/lffloyd/reddit-topic-modelling'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://docs.google.com/presentation/d/1IYUbJLL9FWhMZuijVs9E5Kxgozzj9C-M1DNPFjQin1A/edit?usp=sharing'
+url_slides: ''
 url_source: ''
 url_video: ''
 

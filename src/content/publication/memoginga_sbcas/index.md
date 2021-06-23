@@ -42,18 +42,20 @@ tags: ["serious health games", "digital tv", "multimedia applications"]
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Slides
+  url: https://drive.google.com/file/d/1S75sJ-B0-vlvfPY7TOWDnJIEwyFkLEoK/view?usp=sharing
+- name: Video
+  url: https://youtu.be/nE2l7yt8WTE
 
 url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://drive.google.com/file/d/1S75sJ-B0-vlvfPY7TOWDnJIEwyFkLEoK/view?usp=sharing'
+url_slides: ''
 url_source: ''
-url_video: 'https://youtu.be/nE2l7yt8WTE'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
