@@ -122,6 +122,39 @@ body {
   justify-content: start;
 }
 
+.resource-links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  display: inline-block;
+  background-color: #D4822F;
+  color: black;
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0px 5px 0px 5px;
+  text-decoration: none;
+}
+
+.link:hover {
+  animation-name: link-hover;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes link-hover {
+  100% {
+    color: white;
+    background-color: black;
+  }
+}
+
+.social-media img {
+  width: 48px;
+}
 
 #content #welcome-section-2 #profile {
   width: 20%;
