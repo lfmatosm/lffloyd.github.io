@@ -10,29 +10,35 @@
 <!-- partial:index.partial.html -->
 <main>
 <nav id="navbar">
-<header>My Name</header>
+<header>Luiz Matos</header>
 <ul id="navbar-links">
   <a href="#welcome-section">Home</a>
-  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#works-and-publications">Works</a>
   <a href="#contact">Contact</a>
 </ul>
+<div class="navbar-options">
+  <a><img src="./static/images/search32.png" alt="Search"></a>
+</div>
 </nav>
 
 <div id="content">
-<div id="welcome-section-2">
+<div id="welcome-section" class="dynamic-reveal">
     <div id="profile">
         <img src="https://lffloyd.github.io/authors/admin/avatar_huc85f8299620bc874bfe0e274290b4119_72510_270x270_fill_q75_lanczos_center.jpg" alt="Me">
         <h1>Luiz Matos</h1>
         <h2>Computer science student</h2>
         <ul class="social-media">
-            <a href="mailto:lfmatosmelo@id.uff.br" target="_blank"><img src="./static/images/gmail.png" alt="Gmail"></a>
-            <a href="https://github.com/lffloyd" target="_blank"><img src="./static/images/github.png" alt="Github"></a>
-            <a href="https://linked.in/lfmtsml" target="_blank"><img src="./static/images/linkedin.png" alt="Linkedin"></a>
+            <a class="social-media-link" href="mailto:lfmatosmelo@id.uff.br" target="_blank"><img src="./static/images/gmail64.png" alt="Gmail"></a>
+            <a class="social-media-link" href="https://github.com/lffloyd" target="_blank"><img src="./static/images/github64.png" alt="Github"></a>
+            <a class="social-media-link" href="https://linked.in/lfmtsml" target="_blank"><img src="./static/images/linkedin64.png" alt="Linkedin"></a>
         </ul>
     </div>
     <div id="biography">
-        <h1>Biography</h1>
-        <h2>Hello there! I’m a software developer and computer science graduate at <a href="https://www.uff.br/" target="_blank">Universidade Federal Fluminense</a>, on Brazil. I love building new things, and my main interests are software engineering, algorithms and machine learning. Currently, I’m mostly learning and working with natural language processing and topic models. Also, I have previous works with health-related serious games. Feel free to contact me!</h2>
+        <div class="bio-text">
+            <h1>Biography</h1>
+            <h2 class="typewriter">Hello there! I’m a software developer and computer science graduate at <a href="https://www.uff.br/" target="_blank">Universidade Federal Fluminense</a>, on Brazil. I love building new things, and my main interests are software engineering, algorithms and machine learning. Currently, I’m mostly learning and working with natural language processing and topic models. Also, I have previous works with health-related serious games. Feel free to contact me!</h2>
+        </div> 
         <div class="bio_details">
             <div class="detail">
                 <h3>Interests</h3>
@@ -55,7 +61,7 @@
 </div>
 </div>
 
-<div id="experience">
+<div id="experience" class="dynamic-reveal">
  <div class="section-title">
     <h3>Experience</h3>
  </div>
@@ -78,16 +84,10 @@
             Amazon Web Service</p>
         </div>
     </div>
-        <div class="job">
-            <img src="" alt="B2W logo">
-            <h4>Software development intern</h4>
-            <h5>Mar 2019 - Sep 2019</h5>
-            <p>Internship on web development, with focus on back-end systems.</p>
-        </div>
-    </div>
+  </div>
 </div>
 
-<div id="works-and-publications">
+<div id="works-and-publications" class="dynamic-reveal">
     <div class="section-title">
         <h3>Works</h3>
     </div>
@@ -110,8 +110,10 @@
     </div>
 </div>
 
-<div id="contact">
-    <h3>Contact</h3>
+<div id="contact" class="dynamic-reveal">
+   <div class="section-title">
+      <h3>Contact</h3>
+   </div>
     <div class="contacts">
         <a class="contact_type" href="mailto:lfmatosmelo@id.uff.br" target="_blank">
             <img src="" alt="E-mail">lfmatosmelo@id.uff.br
@@ -129,10 +131,6 @@
 </div>
 </main>
 <!-- partial -->
-  
+<script  src="./script.js"></script>  
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
