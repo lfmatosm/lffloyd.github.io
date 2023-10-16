@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Luiz Matos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./static/js/marked.min.js"></script>
+    <script id="MathJax-script" async src="./static/js/tex-mml-chtml.js">
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js">
+    </script>
+    <link rel="stylesheet" href="./static/js/github-dark.min.css">
+    <script src="./static/js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body class="themed">
+    <main>
+        <div class="home left-upper">
+            <header><a class="home-link" href="#">Luiz Matos</a></header>
+            <a class="theme-switcher icon daynight" onclick="switchTheme()"></a>
+        </div>
+        <div class="home-return reveal right-lower">
+            <a class="icon home" href="#"></a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#works">Works</a>
+                <a href="#projects">Projects</a>
+                <a href="#another-page">Articles</a>
+            </ul>
+        </nav>
+
+        <div class="article">
+            <ul class="summary">
+                <div class="arrow-right light">
+                    
+                </div>
+                <a>Summary</a>
+                <li>
+                    <a href="#">First title</a>
+                </li>
+                <li>
+                    <a href="#">Second title</a>
+                    <ul>
+                        <li>
+                            <a href="#">First subtitle</a>
+                        </li>
+                        <li>
+                            <a href="#">Second subtitle</a>
+                        </li>
+                        <li>
+                            <a href="#">Third subtitle</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Third title</a>
+                </li>
+            </ul>
+
+
+            <h1>First title</h1>
+            Here' some really elaborate equation. This is a test to see if the libraries are working correctly. For this test, we need to ensure that the LaTex, Markdown and Code libraries are working as intended.
+            <p>
+                When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+                \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+            </p>
+            <div class="">
+                <img src="https://avatars.githubusercontent.com/u/29362281?v=4" alt="Me">
+                <p>Fig. 1 - Me myself and I</p>
+            </div>
+            
+            <pre><code>
+                void drawTorus() {
+                    glColor3f(1.0, 1.0, 1.0);
+                    for (int i = 0; i < TORUS_RINGS; i++) {
+                        glBegin(GL_QUAD_STRIP);
+                        for (int j = 0; j <= TORUS_SIDES; j++) {
+                            for (int k = 0; k < 2; k++) {
+                                float s = (i + k) % TORUS_RINGS + 0.5;
+                                float t = j % (TORUS_SIDES + 1);
+                
+                                float x = (RADIUS_MAJOR + RADIUS_MINOR * cos(s * 2.0 * PI / TORUS_RINGS)) * cos(t * 2.0 * PI / TORUS_SIDES);
+                                float y = (RADIUS_MAJOR + RADIUS_MINOR * cos(s * 2.0 * PI / TORUS_RINGS)) * sin(t * 2.0 * PI / TORUS_SIDES);
+                                float z = RADIUS_MINOR * sin(s * 2.0 * PI / TORUS_RINGS);
+                
+                                glVertex3f(x, y, z);
+                            }
+                        }
+                        glEnd();
+                    }
+                }
+              </code></pre>
+        </div>
+
+        <footer id="footer">
+            <p>©
+                <script>document.write(new Date().getFullYear())</script> Luiz Matos. Inspired by both <a
+                    href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and <a
+                    href="https://github.com/wowchemy/starter-hugo-academic">Academic Theme</a>.
+                <br>Icons are not owned by me, social media logos are property of <a target="_blank"
+                    href="https://icons8.com">Icons8</a>.
+                <br>Made mostly with pure HTML, CSS3 and JS, with the addition of some libraries
+            </p>
+        </footer>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
