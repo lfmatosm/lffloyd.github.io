@@ -53,7 +53,7 @@ function getTheme() {
 
 function setIcons() {
   let theme = getTheme();
-  const pngIcons = ['email', 'cnpq', 'home'];
+  const pngIcons = ['email', 'cnpq', 'home', 'linkedin'];
   let elems = document.querySelectorAll('.icon');
   const validIcons = ['daynight', 'email', 'github', 'twitter', 'scholar', 'cnpq', 'linkedin', 'home'];
   for (const elem of elems) {
